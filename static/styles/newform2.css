@@ -1,0 +1,160 @@
+
+
+.sign-up2 {
+  margin: 60px 0 0;
+  font-size: 14px;
+  text-align: center;
+}
+.sign-up2 a {
+  color: #8c7569;
+}
+
+.input2-button2 {
+  padding: 8px 12px;
+  outline: none;
+  border: 0;
+  color: #fff;
+  border-radius: 4px;
+  background: #8c7569;
+  font-family: "Nunito", sans-serif;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.input2-button2:hover {
+  background: #55311c;
+}
+
+.input2-label2 {
+  font-size: 11px;
+  text-transform: uppercase;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  margin-left:2px;
+  letter-spacing: 0.7px;
+  color: white;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.input2-block2 {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  padding: 40px 40px 30px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  width:200px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  margin-left:40%;
+}
+.input2-block2 input {
+  outline: 0;
+  border: 0;
+  padding: 4px 0 0;
+  font-size: 14px;
+  font-family: "Nunito", sans-serif;
+  color:white;
+
+}
+
+.input2-block2 input::-webkit-input-placeholder {
+  color: #ccc;
+  opacity: 1;
+}
+.input2-block2 input::-moz-placeholder {
+  color: #ccc;
+  opacity: 1;
+}
+.input2-block2 input:-ms-input-placeholder {
+  color: #ccc;
+  opacity: 1;
+}
+.input2-block2 input::-ms-input-placeholder {
+  color: #ccc;
+  opacity: 1;
+}
+.input2-block2 input::placeholder {
+  color: #ccc;
+  opacity: 1;
+}
+.input2-block2:focus-within {
+  border-color: #8c7569;
+}
+.input2-block2:focus-within .input2-label2 {
+  color: rgba(140, 117, 105, 0.8);
+}
+
+
+
+.icon2-button2 {
+  outline: 0;
+  position: absolute;
+  right: 10px;
+  top: -10px;
+  width: 32px;
+  height: 32px;
+  border: 0;
+  background: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+
+
+@media (max-width: 750px) {
+  .modal3-container3{
+    width: 90%;
+  }
+
+  .modal3-right2 {
+    display: none;
+  }
+}
+
+element.style {
+  margin-top: 10%;
+}
+.submit2 {
+  font-size: 10px;
+  transition: ease-in all 0.2s;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-weight: 200;
+  border: #00aeef solid 3px;
+  color: #00aeef;
+  padding: 5px 0px;
+  margin-top: 40px;
+  max-width: 120px;
+  width: 100%;
+  display: block;
+  border-radius: 30px;
+  letter-spacing: 0.5px;
+  margin-left:45%;
+}
+
+.submit2:hover {
+  background-color: white;
+  transition: ease-in all 0.2s;
+  color:#00aeef;
+  letter-spacing: 3px;
+  font-weight: 600;
+
+}
+.par h2{
+    color:white;
+     margin-left:7%;
+     font-size: 13px;
+     text-transform: uppercase;
+     font-family: "Nunito", sans-serif;
+     font-weight: 100;
+     width: 800px;
+     letter-spacing: 0.8px;
+     line-height: 27px;
+     -webkit-transition: 0.3s;
+     transition: 0.3s;
+}
